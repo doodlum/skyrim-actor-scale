@@ -19,7 +19,7 @@ void LoadINI()
 {
 	CSimpleIniA ini;
 	ini.SetUnicode();
-	ini.LoadFile(L"Data\\SKSE\\Plugins\\DynamicActorScale.ini");
+	ini.LoadFile(L"Data\\SKSE\\Plugins\\RandomActorScale.ini");
 	GetSettingFloat("Settings", fDeviation, 0.1f);
 	GetSettingFloat("Settings", fMaxScale, 1.1f);
 	GetSettingFloat("Settings", fMinScale, 0.9f);
